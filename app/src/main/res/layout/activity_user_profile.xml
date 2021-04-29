@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parent_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_profile_parent"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:id="@+id/good_morning_hearts_menu_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/good_morning_hearts_ll"
+                style="@style/good_morning_hearts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/good_morning_tv"
+                    style="@style/good_morning_text_View"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/good_morning" />
+
+                <ImageView
+                    android:id="@+id/hearts_iv"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/hearts_image" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/menu_image_view"
+                style="@style/menu_image_view"
+                android:src="@drawable/menu_image" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_ll"
+                style="@style/linear_layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ellipse_image_view"
+                    style="@style/ellipse_image_view"
+                    android:src="@drawable/ellipse_image" />
+
+                <TextView
+                    android:id="@+id/profile_username_text_view"
+                    style="@style/nameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ruth_unoka" />
+
+                <TextView
+                    android:id="@+id/profile_email_text_view"
+                    style="@style/locationText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty" />
+
+                <TextView
+                    android:id="@+id/profile_phone_number_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/locationText"
+                    android:text="@string/phone_number_tv" />
+
+                <TextView
+                    android:id="@+id/profile_gender_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/locationText"
+                    android:text="@string/gender_tv" />
+
+                <Button
+                    android:id="@+id/follow_ruth_button"
+                    style="@style/follow_ruth_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background"
+                    android:text="@string/follow_ruth" />
+
+
+                <Button
+                    android:id="@+id/message_button"
+                    style="@style/message_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background"
+                    android:text="@string/message" />
+            </LinearLayout>
+
+
+    </LinearLayout>

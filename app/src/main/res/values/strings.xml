@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="submit">Submit</string>
+    <string name="phone_number">Phone number</string>
+    <string name="phone_code">Phone code</string>
+    <string name="sex">Sex</string>
+    <string name="ruth_unoka">Ruth</string>
+    <string name="sangotedo_lagos">Sangotedo, Lagos</string>
+    <string name="follow_ruth">Follow Ruth</string>
+    <string name="message">Message</string>
+    <string name="see_more">SEE MORE</string>
+    <string name="good_morning">Good morning!</string>
+    <string name="switch_mode">Switch mode</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="please_enter_your_credentials">please enter your credentials</string>
+    <string name="register">Register</string>
+    <string name="email_edit_text">Email</string>
+    <string name="empty" />
+    <string name="gender_tv">TextView</string>
+    <string name="phone_number_tv">phone_numberTv</string>
+</resources>

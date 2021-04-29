@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="email_icon">8dp</dimen>
+    <dimen name="phone_number_icon">8dp</dimen>
+    <dimen name="form_layout_padding">16dp</dimen>
+</resources>

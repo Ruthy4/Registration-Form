@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="parent_linear_layout">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">16dp</item>
+
+    </style>
+
+    <style name="imageStyle">
+        <item name="android:layout_marginTop">11dp</item>
+        <item name="android:layout_marginRight">11dp</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <style name="good_morning_text_View">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="menu_image_view">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="SearchViewTheme" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:maxWidth">10000dp</item>
+    </style>
+
+
+    <style name="search_view">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="android:queryHint">Search</item>
+
+    </style>
+
+    <style name="nameText">
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+    <style name="locationText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="follow_ruth_button">
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_marginTop">32dp</item>
+
+    </style>
+
+    <style name="message_button">
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">36dp</item>
+    </style>
+
+    <style name="ellipse_image_view">
+        <item name="android:layout_width">136sp</item>
+        <item name="android:layout_height">128dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="linear_layout">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="linear_layout1">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="good_morning_hearts">
+        <item name="android:layout_weight">2</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="linear_layout4">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="submit_button">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="optionsSpinner">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="phone_number_edit_text">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:drawableTint">@color/black</item>
+        <item name="android:drawablePadding">8dp</item>
+
+    </style>
+
+    <style name="enter_details">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/ash_grey</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">50dp</item>
+    </style>
+
+    <style name="registration_form_text_view">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="toolbar_style">
+        <item name="android:layout_marginBottom">80dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+</resources>
